@@ -16,17 +16,17 @@ BOT_TOKEN = getenv("7607851535:AAHKdm-08FVy1WXyniHDc1s4D9oSc9CirLY", None)
 
 # Get your mongo url from cloud.mongodb.com
 MONGO_DB_URI = getenv("mongodb+srv://ankitpatni95:<db_Ankit@98>@cluster0.wobpx.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0", None)
-MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", None)
+MUSIC_BOT_NAME = getenv("Ankit_Music_Bot", None)
 PRIVATE_BOT_MODE = getenv("PRIVATE_BOT_MODE", None)
 
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 900))
 
 # Chat id of a group for logging bot's activities
-LOGGER_ID = int(getenv("LOGGER_ID", None))
+LOGGER_ID = int(getenv("1002428139519", None))
 LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", None))
 
 # Get this value Telegram id
-OWNER_ID = int(getenv("OWNER_ID", "5016109398"))
+OWNER_ID = int(getenv("OWNER_ID", "7441472352"))
 
 ## Fill these variables if you're deploying on heroku.
 # Your heroku app name
@@ -43,8 +43,8 @@ GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/learningbots79")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/learning_bots")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/medico_ankitshakya")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/Ankit_Music_bot73")
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
