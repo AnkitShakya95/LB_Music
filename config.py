@@ -15,7 +15,7 @@ API_HASH = getenv("0e8f93300ccbbcd56066e6d790b0d3b2", None)
 BOT_TOKEN = getenv("7607851535:AAHKdm-08FVy1WXyniHDc1s4D9oSc9CirLY", None)
 
 # Get your mongo url from cloud.mongodb.com
-MONGO_DB_URI = getenv("mongodb+srv://ankitpatni95:<db_Ankit@98>@cluster0.wobpx.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0", None)
+MONGO_DB_URI = getenv("mongodb+srv://ankitpatni95:<Ankit@98>@cluster0.wobpx.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0", None)
 MUSIC_BOT_NAME = getenv("Ankit_Music_Bot", None)
 PRIVATE_BOT_MODE = getenv("PRIVATE_BOT_MODE", None)
 
